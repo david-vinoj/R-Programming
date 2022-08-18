@@ -141,7 +141,7 @@ m3 = matrix(cells, nrow=3, ncol=3, byrow=FALSE, dimnames=list(rnames, cnames))
 print(m3)
 
 
-#2.5
+2.5
 
 Matrix = matrix(1:9, nrow = 3)
 print(Matrix)
