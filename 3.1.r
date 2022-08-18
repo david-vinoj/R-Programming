@@ -1,0 +1,6 @@
+x <- list("1", "2", "3","4","5","6")
+print("The original list is ")
+print(x)
+result = rev(x)
+print("The reversed list is")
+print(result)

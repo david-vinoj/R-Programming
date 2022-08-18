@@ -1,0 +1,6 @@
+x <- list(list(0,4), list(1,2), list(5,6))
+print("Original nested list:")
+print(x)
+sec <- lapply(x, '[[', 2)
+print("Second element of all the nested list:")
+print(sec)
