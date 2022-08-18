@@ -1,0 +1,6 @@
+vec1<-c(155,261,132000,423.4,321, 137000,105, 240, 118000,157.64, 260, 139000)
+row.names<-c("Stock price","Revenue","Employees")
+column.names<-c("2018","2019")
+matrix.names<-c("Apple","Microsoft")
+threed<-array(c(vec1),dim=c(3,2,2),dimnames=list(row.names,column.names,matrix.names))
+print(threed)

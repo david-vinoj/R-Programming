@@ -1,0 +1,9 @@
+diff2<-threed[1,2,1]
+diff1<-threed[1,1,1]
+diff_vector<-c(diff2,diff1)
+diff_price<-diff2-diff1
+print(diff_price)
+avg_price<-(mean(diff_vector))
+print(avg_price)
+per_diff<-diff_price/avg_price*100
+print(per_diff)
